@@ -373,7 +373,6 @@
 
     const transformedExpression = TransformToUpperCase(expression);
     const multTokens = transformedExpression.split("/");
-    // const teste = multTokens.shift();
     const matchVariable = {
       match1: "$",
       match2: "=",
@@ -428,8 +427,6 @@
       }
       console.log(expressionArray);
     });
-
-    // console.log(expressionArray.includes(matchVariable[0]));
   }
 
   function TransformToUpperCase(expression) {
